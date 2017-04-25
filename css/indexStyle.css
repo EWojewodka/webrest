@@ -1,0 +1,49 @@
+.header {
+    min-height: 100vh;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header #logo-font {
+    color: #f0ad1f;
+    font-size: 20vh;
+    position: static;
+}
+
+.header #showMoreButton {
+    width: 20%;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    left: 40%;
+    right: 40%;
+    background-color: #f0ad1f;
+    border-radius: 3px;
+    border: solid 1px #b6800c;
+    font-size: 24px;
+    color: #39496B;
+    margin-top: 10%;
+}
+
+.header #showMoreButton:hover {
+    color: snow;
+}
+
+@media only screen and (max-width: 900px) {
+    .header {
+        position: static;
+        overflow-y: hidden;
+    }
+    .header #logo-font {
+        font-size: 12vw;
+        margin-top: 40%;
+    }
+
+    .header #showMoreButton {
+        width: 80%;
+        left: 10%;
+        margin-bottom: 0;
+    }
+}
